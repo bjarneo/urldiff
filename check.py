@@ -31,8 +31,8 @@ if cache['colordiff'].is_installed:
 else:
     print 'You should install colordiff. apt-get install colordiff\n'
 
-if '::' in args.u:
-    urls = args.u.split('::')
+if '|||' in args.u:
+    urls = args.u.split('|||')
 
     os.system('curl "%s" > %s/page1.log | curl "%s" > %s/page2.log' % (urls[0], script_path, urls[1], script_path))
 
