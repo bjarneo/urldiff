@@ -10,13 +10,13 @@ This tool is only tested in mint and ubuntu.
 Usage:
 ```bash
 chmod +x check.py
-./check.py -i "url::url"
+./check.py -i "url|||url"
 ```
 
 or
 
 ```bash
-python check.py -u "http://www.web.com/::http://www.web.com/?param=true"
+python check.py -u "http://www.web.com/|||http://www.web.com/?param=true"
 ```
 
 or
@@ -24,6 +24,6 @@ or
 ```bash
 ln -s /your/folder/urldiff/check.py /usr/local/bin/urldiff
 
-urldiff -u "url::url"
+urldiff -u "url|||url"
 ```
 
