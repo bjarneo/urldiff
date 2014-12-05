@@ -9,7 +9,7 @@ import apt
 
 parser = argparse.ArgumentParser(description='Check difference between urls')
 
-parser.add_argument('-u', help='Pass urls. Ex: -u http://url.com?asdasdS:http://url.com')
+parser.add_argument('-u', help='Pass urls. Ex: -u http://url.com?asdasdS|||http://url.com')
 
 args = parser.parse_args()
 keys = ['u']
